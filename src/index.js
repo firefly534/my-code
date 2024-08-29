@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+// eslint-disable-next-line
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import RouteApp from './components/RouteApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
